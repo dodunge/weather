@@ -1,0 +1,13 @@
+#server
+server:
+  port: 8000
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/project?serverTimezone=UTC&characterEncoding=UTF-8
+    username: root
+    password: 1234
+  jpa:
+    show-sql: true # 내부적으로 작성되는 쿼리를 보고 싶기 때문에 true로 설정
+    database: mysql
