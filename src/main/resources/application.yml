@@ -11,3 +11,5 @@ spring:
   jpa:
     show-sql: true # 내부적으로 작성되는 쿼리를 보고 싶기 때문에 true로 설정
     database: mysql
+
+openweathermap.key: fa05e8af40abddc094463d2f2732b70f
