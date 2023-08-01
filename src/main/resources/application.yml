@@ -13,3 +13,6 @@ spring:
     database: mysql
 
 openweathermap.key: fa05e8af40abddc094463d2f2732b70f
+
+logging:
+  config: classpath:logback-spring.xml #classpath -> resources폴더를 의미
